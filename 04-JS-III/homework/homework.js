@@ -187,13 +187,13 @@ function empiezaConNueve(n) {
   
   //otra forma que se me ocurrió sin usar arrays, antes de saber que existia la funcion toString
   /*
-  var aux = n;
-  while ( aux > 10) {
-    aux = aux / 10;
-    aux = Math.floor(aux);
+  
+  while ( n > 10) {
+    n = n / 10;
+    n = Math.floor(n);
 
   }
-  if (aux % 9 === 0) {
+  if (n % 9 === 0) {
     return true;
   }
   return false;
